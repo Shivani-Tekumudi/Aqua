@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(img/aqa.jpg);
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+}
+
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+font-weight: 700;
+
+}
+.navbar-brand{
+color: #ffffff;
+/* font-family: 'Lobster Two', cursive; */
+ font-family: 'Noto Serif', serif;
+font-size: 3.25rem;
+font-weight: 700;
+}
+.nav-item .nav-link{
+    color:#ffffff;
+
+}
+.nav-item .nav-link:hover{
+    color:#ffffff;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.navbar-toggler-icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.txt{
+
+   margin-top: auto;
+}
+.container-fluid{
+    position: relative;
+    z-index: -1;
+}
+
+.container-fluid .row{
+  
+   margin-top: 150px;
+}
+
+
+.txt h1{
+
+    font-size: 160px;
+   position: relative;
+    color: #ffffff;
+    display: inline;
+    z-index: -1;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    line-height: 70px;
+   
+   
+    
+}
+
+
+
+@media screen and (min-width: 601px) {
+    .txt h1 {
+      font-size: 160px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .txt h1 {
+      font-size: 70px;
+    }
+  }
+
+
+  
+
+  @media screen and (min-width: 601px) {
+    .txt .img{
+        z-index: 10;
+        margin-top: -130px;
+    
+        
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .txt .img{
+        z-index: 10;
+        margin-top: -72px;
+    
+        
+    }
+  }
+
+
+
+
+/* .txt .img{
+    z-index: 10;
+    margin-top: -72px;
+
+    
+} */
+@media (max-width: 300px) {
+    .txt .img {
+        z-index: 10;
+        /* margin-top: -160px; */
+        margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .container .row {
+       
+        /* margin-top: -160px; */
+        margin-top: 0;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .row .cad {
+      margin-top:-200px;
+        }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .row .cad {
+      margin-top:10px;
+        }
+
+  }
